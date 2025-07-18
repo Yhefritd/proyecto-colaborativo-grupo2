@@ -1,0 +1,59 @@
+🧠 Tarea Grupal: Domina GitHub en Equipo
+🎯 Objetivo:
+ Aplicar los conocimientos básicos de Git y GitHub mediante una actividad colaborativa que simula un equipo de desarrollo real. Todos los grupos realizarán tareas similares para garantizar una experiencia equitativa.
+ La entrega incluye evidencia escrita y un video grupal explicativo.
+
+📌 Instrucciones Generales (para todos los grupos)
+Todos los integrantes deben participar activamente.
+
+Grabar un video de máximo 15 minutos explicando: qué hicieron, cómo resolvieron conflictos y qué aprendieron.
+Cada grupo debe usar GitHub colaborativamente: ramas, pull requests, conflictos, issues y GitHub Pages.
+Toda la documentación debe ir en el README.md del repositorio.
+
+✅ Actividades comunes para los 3 grupos
+Crear un repositorio llamado:
+ proyecto-colaborativo-grupoX (X = 1, 2 o 3)
+
+
+Cada integrante debe:
+
+Crear una rama: feature/nombre
+Dentro de su rama, crear un archivo perfil-[nombre].md con:
+ • Quién eres
+ • Qué estudias
+ • Habilidades actuales en programación
+ • Experiencias pasadas (si las tienes)
+ • Qué esperas aprender usando GitHub
+
+Hacer al menos 2 commits
+
+Unificar el trabajo:
+
+Hacer Pull Requests por cada rama
+Incluir al menos 1 conflicto y resolverlo colaborativamente
+Usar issues para registrar errores simulados, ideas o dudas
+Agregar etiquetas y cerrar los issues con mensajes de commit claros (Fixes #número)
+Sitio web de práctica:
+Crear una rama feature/sitio-web
+Subir un HTML básico (puede ser plantilla)
+Publicar con GitHub Pages
+Incluir el enlace en el README.md
+
+
+
+📝 README.md del repositorio debe incluir:
+
+Nombres e integrantes
+Breve descripción del proyecto
+Qué hizo cada uno
+Qué conflictos surgieron y cómo los resolvieron
+Habilidades del grupo
+Enlace a GitHub Pages
+
+
+📤 Entregables
+
+Repositorio en GitHub con todo el trabajo
+Archivo README.md bien redactado
+Video (máx. 15 min) con participación de todos
+Link público de GitHub Pages funcionando
