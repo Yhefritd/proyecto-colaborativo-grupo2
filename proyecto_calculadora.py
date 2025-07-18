@@ -1,24 +1,39 @@
-def calculadora():
-    print("--- Calculadora Simple ---")
-    ops = {'+': 'suma', '-': 'resta', '*': 'multiplicación', '/': 'división'}
-    print("Operaciones disponibles:", ', '.join([f"{k} ({v})" for k, v in ops.items()]))
+import math
+
+# Diccionario seguro de funciones permitidas
+funciones = {
+    'sin': math.sin,
+    'cos': math.cos,
+    'tan': math.tan,
+    'sqrt': math.sqrt,
+    'log': math.log,     # log(x) = ln(x)
+    'log10': math.log10, # log base 10
+    'exp': math.exp,
+    'pi': math.pi,
+    'e': math.e,
+    'abs': abs,
+    'pow': pow
+}
+
+def calcular(expresion):
+    try:
+        resultado = eval(expresion, {"__builtins__": None}, funciones)
+        return resultado
+    except Exception as e:
+        return f"Error: {str(e)}"
+
+def main():
+    print("🔢 Calculadora científica en Python")
+    print("Funciones disponibles: sin, cos, tan, sqrt, log, log10, exp, pi, e, abs, pow")
+    print("Ejemplos: sin(pi/2), log(e), sqrt(25), pow(2,3), 2+3*4")
 
     while True:
-        try:
-            num1 = float(input("Ingresa el primer número: "))
-            operador = input("Ingresa la operación (+, -, *, /): ")
-            num2 = float(input("Ingresa el segundo número: "))
-            if operador not in ops:
-                raise ValueError("Operación inválida.")
-            if operador == '/' and num2 == 0:
-                raise ZeroDivisionError("No se puede dividir por cero.")
-            resultado = eval(f"{num1}{operador}{num2}")
-            print(f"El resultado de la {ops[operador]} es: {resultado}")
+        expresion = input("\nIngresa una expresión (o 'salir'): ")
+        if expresion.lower() in ["salir", "exit", "quit"]:
+            print("¡Hasta luego!")
             break
-        except ValueError as e:
-            print(f"Error: {e}")
-        except ZeroDivisionError as e:
-            print(f"Error: {e}")
-    print("------------------------")
+        resultado = calcular(expresion)
+        print("Resultado:", resultado)
 
-calculadora()
+if __name__ == "__main__":
+    main()
