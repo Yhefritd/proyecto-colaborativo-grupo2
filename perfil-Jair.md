@@ -1,5 +1,5 @@
 ¿Quien eres?
-    - Jair Urbano
+    - Jair Piero Urbano Huaringa
 ¿Que estudias?
     - Estudio Desarrollo de Software.
 Habilidades actuales en programación
