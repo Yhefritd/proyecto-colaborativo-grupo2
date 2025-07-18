@@ -9,33 +9,37 @@
 
 ## Descripción del Proyecto
 
-Este proyecto consistió en el desarrollo de una **calculadora en Python** utilizando **Git** y **GitHub** para gestionar nuestras contribuciones de manera eficiente. Cada miembro del grupo trabajó en su propia rama, inicialmente creando un archivo para describirse brevemente. Posteriormente, colaboramos en el archivo principal `proyecto_calculadora.py`, donde cada uno aportó funcionalidades específicas. A lo largo del proceso, se presentaron conflictos de fusión, los cuales resolvimos de manera colaborativa, eligiendo la versión más estable del código. 🛠️💻
+Este proyecto consistió en el desarrollo de una **calculadora básica en Python** utilizando **Git** y **GitHub** para gestionar nuestras contribuciones de manera eficiente. Como parte del flujo de trabajo, cada miembro creó una rama individual, donde se describió brevemente y luego realizó un **commit**. Este proceso generó **conflictos de fusión** que resolvimos colaborativamente para mantener la integridad del código. El archivo principal `proyecto_calculadora.py` implementa operaciones matemáticas básicas como suma, resta, multiplicación y división. 🛠️💻
 
 ## Qué hizo cada uno
 
 - **Fernando Dionicio**:  
-  Coordinó la organización del repositorio, gestionó el flujo de trabajo del equipo y resolvió conflictos de fusión. Además, implementó funcionalidades de validación de entradas para asegurar que las entradas del usuario fueran correctas. ✅
+  Coordinó la organización del repositorio y gestionó el flujo de trabajo del equipo. Fue responsable de realizar los primeros **commits** describiéndose brevemente y también implementó la validación de entradas en la calculadora. Ayudó a resolver los conflictos de fusión generados. ✅
 
 - **Yhefritd Huacho**:  
-  Se encargó de implementar funciones matemáticas avanzadas, como operaciones trigonométricas y logaritmos. También resolvió conflictos en el código, asegurando que las funcionalidades se integraran correctamente. ➗
+  Desarrolló las funciones para las operaciones matemáticas básicas (suma, resta, multiplicación, división). Realizó su **commit** describiendo su parte en el proyecto y resolvió los conflictos que surgieron al integrar su código. ➗
 
 - **Yerchelo Huamani**:  
-  Desarrolló la interfaz de usuario en consola, permitiendo una interacción más fluida con el programa. Además, realizó pruebas de funcionalidad para asegurarse de que todo el código estuviera operando correctamente. 🖥️
+  Se encargó de la interfaz en consola para la interacción con el usuario y de realizar pruebas de funcionalidad. Hizo su **commit** describiendo su aportación y participó activamente en la resolución de los conflictos de fusión. 🖥️
 
 - **Jair Urbano**:  
-  Refactorizó el código para mejorar su modularidad y eficiencia. Se encargó de la integración de todas las funcionalidades y se aseguró de que el proyecto fuera escalable y fácil de mantener. 🔧
+  Refactorizó el código para asegurar su claridad y facilitar su mantenimiento. También participó en la resolución de conflictos y ayudó a integrar las modificaciones realizadas por los demás miembros del equipo. 🔧
 
 ## Conflictos y Resolución
 
-Durante el desarrollo, se presentaron varios conflictos de fusión cuando varios miembros modificamos el mismo archivo. Para resolverlos, utilizamos el comando `git merge` y discutimos las mejores soluciones para asegurar la estabilidad del código. Finalmente, seleccionamos la versión más estable y probada, y verificamos que la calculadora funcionara correctamente después de la integración. 🧑‍💻🤝
+Durante el desarrollo del proyecto, creamos **commits** en los que cada uno de nosotros se describió y, al trabajar en el mismo archivo (`proyecto_calculadora.py`), generamos varios **conflictos de fusión**. Para resolverlos:
+
+1. Usamos `git merge` para identificar los conflictos.
+2. Discutimos las mejores soluciones para integrar las contribuciones de todos.
+3. Seleccionamos la versión más estable y funcional, asegurándonos de que las operaciones básicas de la calculadora estuvieran correctamente implementadas. 🧑‍💻🤝
 
 ## Habilidades del Grupo
 
 - **Gestión de versiones con Git y GitHub**:  
-  Dominamos el uso de Git para el control de versiones y la resolución de conflictos, lo que nos permitió colaborar de manera eficiente y mantener el proyecto organizado. 🔄
+  Utilizamos **Git** para gestionar nuestras versiones, crear ramas, realizar **commits** y resolver conflictos de manera efectiva. 🔄
 
 - **Programación en Python**:  
-  Implementamos funciones matemáticas y optimizamos el código para que fuera más eficiente y fácil de entender. 🐍
+  Implementamos las funciones para realizar operaciones matemáticas simples en la calculadora. 🐍
 
 - **Trabajo en equipo**:  
-  Mantenemos una comunicación constante, lo que nos permitió compartir ideas, resolver problemas rápidamente y asegurarnos de que todas las partes del proyecto estuvieran alineadas. 💬
+  Mantenemos una comunicación constante, lo que nos permitió resolver problemas rápidamente y garantizar que todas las funcionalidades estuvieran integradas correctamente. 💬
